@@ -1,0 +1,9 @@
+# 📦 Import libraries
+import pandas as pd
+
+# 📁 Load the dataset (adjust the path if needed)
+file_path = "Accidents0514.csv"  # Replace with your actual file name if different
+df = pd.read_csv(file_path)
+
+# 👀 Preview the first few rows
+df.head()
